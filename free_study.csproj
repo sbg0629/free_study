@@ -9,6 +9,11 @@
 
   <ItemGroup>
     <Compile Remove="Code\HelloWorld.cs" />
+    <Compile Remove="Code\StringApp.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Code\StringApp.cs" />
   </ItemGroup>
 
 </Project>
